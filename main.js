@@ -46,3 +46,7 @@ elemClone.textContent =  'Глава 8: За пределами ES6';
 
 collections[2].append(elemClone);
 collections[2].append(elems[56]);
+elems[55].after(elems[56]);
+elems[56].after(elems[57]);
+console.log(elems[56]);
+console.log(elems[57]);
